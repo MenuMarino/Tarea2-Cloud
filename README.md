@@ -13,3 +13,7 @@
 * Copiar archivo
 
 `docker cp tarea2_container:/tarea2/output_file.txt .`
+
+* Pushear a docker hub
+- Primero tageamos la imagen: `docker tag tarea2 bepz/tarea2`
+- Finalmente corremos: `docker push bepz/tarea2`
