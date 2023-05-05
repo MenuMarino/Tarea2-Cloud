@@ -2,8 +2,7 @@ FROM ubuntu:latest
 
 # Instalar dependencias de Apache Spark y Python 3
 RUN apt-get update && \
-    apt-get install -y default-jre scala wget python3 && \
-    rm -rf /var/lib/apt/lists/*
+    apt-get install -y default-jre scala wget python3
 
 # Descargar y descomprimir Apache Spark 1.5.2
 RUN wget https://archive.apache.org/dist/spark/spark-1.5.2/spark-1.5.2-bin-hadoop2.6.tgz && \
