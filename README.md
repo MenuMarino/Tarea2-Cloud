@@ -24,3 +24,6 @@ Integrantes:
 
 6. Link de nuestra imagen
 * https://hub.docker.com/r/bepz/tarea2
+
+7. Video
+* https://drive.google.com/file/d/14BLKXQNDs8u7hw311oBx-JGOgnkCoMD5/view?usp=share_link
